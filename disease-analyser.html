@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="analyser-assets/styles.css">
+    <title>Disease Prediction Form</title>
+</head>
+<body>
+    <div class="bgimg">
+            <img src="analyser-assets/wooden-empty-frame-yellow-paper-with-green-artificial-leaves.jpg" alt="">
+        </div>
+    <div class="wrapper">
+        
+
+        <h1 >Disease Prediction</h1>
+         <div class="container">
+        
+            <form id="symptomForm">
+                <label for="selectedSymptom1">Select your symptom 1:</label>
+                <select id="selectedSymptom1" name="selectedSymptom1" required>
+                </select>
+                <br><br>
+            
+                <label for="selectedSymptom2">Select your symptom 2:</label>
+                <select id="selectedSymptom2" name="selectedSymptom2" required>
+                </select>
+                <br><br>
+            
+                <label for="selectedSymptom3">Select your symptom 3:</label>
+                <select id="selectedSymptom3" name="selectedSymptom3" required>
+                </select>
+                <br><br>
+            
+                <label for="selectedSymptom4">Select your symptom 4:</label>
+                <select id="selectedSymptom4" name="selectedSymptom4" required>
+                </select>
+                <br><br>
+            
+                <label for="selectedSymptom5">Select your symptom 5:</label>
+                <select id="selectedSymptom5" name="selectedSymptom5" required>
+                </select>
+                <input type="submit" value="Predict Disease">
+            </form>
+            
+
+        <h2 >Prediction Result:</h2>
+        <p id="predictionResult"></p>
+    </div>
+    </div>
+   
+
+    <script src="analyser-assets/script.js">
+    </script>
+</body>
+</html>
