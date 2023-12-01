@@ -1,74 +1,88 @@
+html,
+body {
+  position: absolute;
+  background-image: url("/analyser-assets/wooden-empty-frame-yellow-paper-with-green-artificial-leaves.jpg");
+  background-repeat: no-repeat,no-repeat;
+  object-fit: cover;
+  font-size: 14px;
+  color: #797979;
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 300;
+  width: 100%;
+  font-family: "ralewayregular";
+}
 
-  *{
+/* *{
     padding: 0;
     box-sizing: border-box;
-    margin:0;
-  }
-  .wrapper{
-    position:relative;
-    width:100%;
-    height:100%;
+    margin:0; 
+  } */
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
 
-  }
-  
-  .bgimg {
-    position:absolute;
-    z-index: -1;
-    width:100%;
+.bgimg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  object-fit: cover;
+}
+body {
+  font-family: Arial;
+}
 
-    object-fit:cover;
-    
-   
-  }
-  body {
-    font-family: Arial;  
-  }
-  
-  
-  .container {
-    display:flex;
-    flex-direction: column;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.3);  
-    width: 400px;
-    margin: 20px auto; 
-    padding: 20px;
-  }
-  
-  h1, h2 {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  label {
-    display: block;
-    margin: 16px 0 4px;
-  }
-  
-  select {
-    padding: 6px 12px;
-    width: 100%;  
-  }
-  
-  button {
-    margin-top:20px;
-    background: #4b86f3; 
-    border: none;
-    color: white;
-    padding: 8px 12px;
-  } 
-  
-  button:hover {
-    background: #3663ea;
-    cursor: pointer;
-  }
-  
-  #predictionResult {
-    margin-top: 20px;
-    padding: 12px;
-    background: #f2f2f2;
-  }
-  
- 
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+label {
+  display: block;
+  margin: 16px 0 4px;
+}
+
+select {
+  padding: 6px 12px;
+  width: 100%;
+}
+
+.button {
+  margin-top: 20px;
+  background: #4b86f3;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.button:hover {
+  background: #3663ea;
+  cursor: pointer;
+}
+
+#predictionResult {
+  margin-top: 20px;
+  padding: 12px;
+  background: #f2f2f2;
+}
